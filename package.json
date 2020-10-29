@@ -1,5 +1,5 @@
 {
-  "homepage":"https://abejacruz.github.io/frontend-torre",
+  "homepage": "https://abejacruz.github.io/frontend-torre",
   "name": "front-torre",
   "version": "1.0.0",
   "description": "React Base",
@@ -28,6 +28,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.2.0",
+    "serve": "^11.3.2",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.7.1"

@@ -5,10 +5,10 @@ import Profile from '../containers/Profile';
 
 
 const App = () => (
-    <BrowserRouter>
-        <Route exact path="/" component={Home}></Route>
-        <Route path="/profile" component={Profile} />
-    </BrowserRouter>
+  <BrowserRouter>
+    <Route exact path="/" component={Home} />
+    <Route path="/profile" component={Profile} />
+  </BrowserRouter>
 )
 
 export default App;

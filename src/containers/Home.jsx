@@ -11,7 +11,7 @@ import '../assets/styles/App.scss';
 
 const API = 'https://search.torre.co/people/_search/?offset=0&size=24';
 
-const App = () => {
+const Home = () => {
   const initialState = peopleApi(API);
   return initialState.length === 0 ? <h1>Loading...</h1> : (
     <Layout>
@@ -33,4 +33,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default Home;
